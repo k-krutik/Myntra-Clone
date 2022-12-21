@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    font-family: News Gothic BT Std Bold and Texicali Bold;
+  }
+
+.nav{
+    display: flex;
+    justify-content: space-between; 
+    padding: 14px 8px;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%)
+    
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    margin: 0 25px;
+    
+    
+}
+
+
+.left img{
+    height: 50px;
+    width: 50px;
+    margin-left: 65px;
+}
+
+.left ul{
+    margin: 5px 25px;
+    
+   
+    display: flex;
+    list-style: none;
+    
+}
+
+.left ul li{
+    padding: 0 15px;
+    font-weight: bold;
+}
+.right ul li{
+    padding: 0 15px;
+}
+
+.right ul{
+    margin: 5px 25px;
+    
+   
+    display: flex;
+    list-style: none;
+    
+}
+
+.search{
+    width: 645px;
+    position: relative;
+    border: none;
+    }
+
+.search input{
+
+    height: 36px;
+    background: #f5f5f6; 
+    text-indent: 25px;
+     
+ }
+
+.search .fa-search{
+
+     position: absolute;
+     top: 10px;
+     left: 14px;
+     
+    }
