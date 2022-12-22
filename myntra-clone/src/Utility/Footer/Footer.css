@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    
+   
+  }
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 58px 0;
+    
+   
+}
+.content{
+    margin: 20px;
+    padding: 5px 14px;
+    
+    
+}
+
+.break{
+    margin: 0 10%;
+}
+
+.subContent{
+    font-size: small;
+    margin-top: 10px;
+}
+
+.category{
+    font-size: 14px;
+    padding: 2% 10% 5%
+}
+

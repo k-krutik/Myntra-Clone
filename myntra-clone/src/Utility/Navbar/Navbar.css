@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     /* border: 1px solid red; */
-    font-family: News Gothic BT Std Bold and Texicali Bold;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
   }
 
 .nav{
     display: flex;
     justify-content: space-between; 
-    padding: 14px 8px;
+    
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%)
     
 }
@@ -16,6 +16,7 @@
 .left{
     display: flex;
     align-items: center;
+   
     
 }
 
@@ -32,10 +33,11 @@
     height: 50px;
     width: 50px;
     margin-left: 65px;
+    
 }
 
 .left ul{
-    margin: 5px 25px;
+    margin: 0px 25px;
     
    
     display: flex;
@@ -44,9 +46,18 @@
 }
 
 .left ul li{
-    padding: 0 15px;
+    padding: 26px 15px;
     font-weight: bold;
 }
+
+.left ul li:hover{
+    color: #fb56c1;
+    border-bottom: 2px solid #fb56c1;
+    padding-bottom: 24px;
+    
+
+}
+
 .right ul li{
     padding: 0 15px;
 }
