@@ -21,6 +21,7 @@
     padding: 5px 14px;
     
     
+    
 }
 
 .break{
@@ -28,12 +29,15 @@
 }
 
 .subContent{
+    color: #696b79;
     font-size: small;
     margin-top: 10px;
 }
 
 .category{
     font-size: 14px;
-    padding: 2% 10% 5%
+    padding: 2% 10% 5%;
+    color: #696b79;
+
 }
 

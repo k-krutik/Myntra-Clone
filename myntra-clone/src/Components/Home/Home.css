@@ -1,0 +1,22 @@
+.imgLayout{
+    
+    display: inline-block;
+    margin: 1px 6px;
+    padding: 2px 5px;
+}
+
+.heading{
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 48px;
+    color: rgba(0,0,0,.74)
+}
+
+
+.breakk{
+    margin: 0 2%;
+    margin-top: 3%;
+    height: 1px;
+    background-color: black;
+    opacity: 0.5;
+}

@@ -111,7 +111,7 @@ function Footer() {
                 width={"26px"}
                 src="./Images/icons8-replace-50.png"
                 alt=""
-              />{" "}
+              />
               <b>Return within 30 days</b> of receiving your order
             </p>
           </div>
@@ -131,7 +131,7 @@ function Footer() {
           </p>
         </div>
         <hr style={{margin:"0"}}/>
-        <center>© 2022 www.myntra.com (ClonedByKrutik) All rights reserved</center>
+        <center style={{color: "#696b79"}}>© 2022 www.myntra.com (ClonedByKrutik) All rights reserved</center>
         <hr style={{margin:"0"}}/>
       </div>
     </>
