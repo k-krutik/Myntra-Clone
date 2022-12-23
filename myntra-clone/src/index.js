@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './Components/Home/Home';
+// import Home from './Components/Home/Home';
+import Product from './Components/Product/Product';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Footer from './Utility/Footer/Footer';
-import Navbar from './Utility/Navbar/Navbar';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Navbar/>
-    <Home/>
-    <Footer/>
+    {/* <Home/> */}
+    <Product/>
+    
   </React.StrictMode>
 );
 

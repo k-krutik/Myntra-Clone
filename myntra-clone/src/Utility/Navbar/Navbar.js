@@ -26,6 +26,7 @@ function Navbar() {
               <input type="text" class="form-control" placeholder="Search for products,brands and more"/>
           </div>
             
+         
             <ul>
               <li><PermIdentityOutlinedIcon/></li>
               <li><FavoriteBorderOutlinedIcon/></li>

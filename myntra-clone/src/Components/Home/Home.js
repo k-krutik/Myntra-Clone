@@ -1,5 +1,8 @@
 import React from "react";
 import "./Home.css";
+import Navbar from "./../../Utility/Navbar/Navbar"
+import Footer from "./../../Utility/Footer/Footer"
+
 // import imgData from "./../../RawJson.js"
 
 function Home() {
@@ -224,6 +227,7 @@ function Home() {
 
   return (
     <>
+      <Navbar/>
       <div>
         <img
           style={{ width: "100%", margin: "2px 0px" }}
@@ -274,6 +278,8 @@ function Home() {
       <div>
       {imgBrand.map(brandDeals)}
       </div>
+      <Footer/>
+      
       
       
     </>
