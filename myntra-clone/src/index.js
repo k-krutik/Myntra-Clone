@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import Home from './Components/Home/Home';
-import Product from './Components/Product/Product';
+// import Product from './Components/Product/Product';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Men from './Components/Men/Men';
 
 
 
@@ -13,7 +14,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Home/> */}
-    <Product/>
+    {/* <Product/> */}
+    <Men/>
     
   </React.StrictMode>
 );
