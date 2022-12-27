@@ -228,6 +228,7 @@ function Home() {
   return (
     <>
       <Navbar/>
+      <div style={{marginTop:"78px"}}>
       <div>
         <img
           style={{ width: "100%", margin: "2px 0px" }}
@@ -278,10 +279,9 @@ function Home() {
       <div>
       {imgBrand.map(brandDeals)}
       </div>
+      </div>
+      
       <Footer/>
-      
-      
-      
     </>
   );
 }

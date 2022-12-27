@@ -1,21 +1,25 @@
 import React from 'react'
 import "./Navbar.css"
+import { Link } from 'react-router-dom';
 import PermIdentityOutlinedIcon from '@material-ui/icons/PermIdentityOutlined';
 import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
 import LocalMallOutlinedIcon from '@material-ui/icons/LocalMallOutlined';
 function Navbar() {
     return (
         <>
-        <nav className='nav'>
+        <nav className='nav fixed-top'>
           <div className="left">
-            <img src="./Images/logo.png" alt="" />
+
+            <Link to="/"><img src="./Images/logo.png" alt="" /></Link>
+            
             <ul>
-              <li>Men</li>
-              <li>Women</li>
-              <li>Kids</li>
-              <li>Home & Lifestyle</li>
-              <li>Beauty</li>
-              <li>Studio</li>
+              
+            <Link className='link' to="/men"><li>Men </li></Link>
+            <Link className='link' to="/women"><li>Women </li></Link>
+            <Link className='link' to="/kids"><li>Kids </li></Link>
+            <Link className='link' to="/home&style"><li>Home & Lifestyle </li></Link>
+            <Link className='link' to="/beauty"><li> Beauty</li></Link>
+            <Link className='link' to="/product"> <li>Product </li></Link>
             </ul>
 
           </div>

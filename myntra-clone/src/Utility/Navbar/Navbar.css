@@ -8,8 +8,9 @@
 
 .nav{
     display: flex;
-    justify-content: space-between; 
-    
+    justify-content: space-between;
+    background-color: #FFFFFF; 
+    position: fixed;
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%)
     
 }
@@ -46,15 +47,17 @@
     
 }
 
+
 .left ul li{
+    
     padding: 26px 15px;
     font-weight: bold;
 }
 
 .left ul li:hover{
     color: #fb56c1;
-    border-bottom: 2px solid #fb56c1;
-    padding-bottom: 24px;
+    border-bottom: 3px solid #fb56c1;
+    padding-bottom: 23px;
     
 
 }
@@ -70,6 +73,15 @@
     display: flex;
     list-style: none;
     
+}
+
+.link{
+    text-decoration: none;
+    color: #282c3f;
+}
+.link:hover{
+    text-decoration: none;
+    color: #282c3f;
 }
 
 .search{

@@ -50,6 +50,7 @@ function Product() {
 
   return (
     <>
+    <div style={{marginTop:"90px"}}>
     <Navbar/>
     <div className='address'>
         <h6 style={{fontSize:"small"}}>Home/Clothing/Men Clothing/Tshirts/Roadster Tshirts{'>'}More By Roadster</h6>
@@ -99,6 +100,8 @@ function Product() {
         </div>
     </div>
     <Footer/>
+    </div>
+    
     </>
   )
 }

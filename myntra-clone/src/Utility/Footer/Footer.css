@@ -4,21 +4,27 @@
     /* border: 1px solid red; */
     font-family: Roboto, Helvetica, Arial, sans-serif;
     
+    
    
   }
-
+.foot{
+    background-color: hsla(0,0%,75.3%,.26);
+    
+}
 
 
 .footer{
-    display: flex;
+    /* display: flex; */
     justify-content: space-evenly;
     padding: 58px 0;
     
    
 }
 .content{
+    display: inline-table;
     margin: 20px;
     padding: 5px 14px;
+    /* border: 1px solid red; */
     
     
     

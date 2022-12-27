@@ -4,8 +4,9 @@ import "./Footer.css";
 function Footer() {
   return (
     <>
+    
     <hr style={{margin:"0 2%"}}/>
-      <div style={{ backgroundColor: "hsla(0,0%,75.3%,.26)" }}>
+      <div className="foot">
         <div className="footer container">
           <div className="content">
             <b>ONLINE SHOPPING</b>
